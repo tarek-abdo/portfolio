@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Personal Portfolio Website using HTML CSS & JavaScript</title>
+    <!-- Material Icons CDN -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">  اللينك مش شغال -->
+    
+    <!-- googgle font icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google fonts Monsterrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,200;0,300;1,300;1,400&display=swap" rel="stylesheet">
+
+    <!-- iconsout cdn -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="#"><h3>Tarek Hegazy</h3></a>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">lets Talk</a></li>
+            </ul>
+            <button id="menu-btn"><span class="material-symbols-sharp">menu</span></button>
+            <button id="close-btn"><span class="material-symbols-sharp">close</span></button>
+        </div>
+    </nav>
+        <!-- ================ End of NAV BAR ==========-->
+
+        <section class="landing">
+            <div class="container">
+                <div class="socials">
+                    <a href="https://www.facebook.com/profile.php?id=100008332725614&mibextid=ZbWKwL" target="_blank"><i class="uil uil-facebook-f"></i></a>
+                    <a href="https://drible.com" target="_blank"><i class="uil uil-dribbble"></i></i></a>
+                    <a href="https://github.com/tarek-abdo" target="_blank"><i class="uil uil-github"></i></i></a>
+                </div>
+                <div class="info">
+                    <h1>Fullstack Web Developer</h1>
+                    <p>Possesses the skills and knowledge to work on both the front-end and back-end aspects of web development. 
+                        They are responsible for designing, developing, and maintaining  web applications that encompass both 
+                        the user interface and server-side functionality.</p>
+                    <a href="#contact" class="btn btn-primary">lets talk</a>
+                </div>
+                <div class="profile-area">
+                    <div class="outer-circle">
+                        <span class="material-symbols-sharp">design_services</span>
+                        <span class="material-symbols-sharp">dns</span>
+                        <span class="material-symbols-sharp">code</span>
+                        <span class="material-symbols-sharp">integration_instructions</span>
+                    </div>
+                    <div class="inner-circle">
+                        <img src="./images/profile22.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ====================  END OF LANDING ======================= -->
+        <section class="about" id="about">
+            <h1>About</h1>
+            <div class="container">
+                <div class="image">
+                    <img src="images/profile1.jpg" alt="">
+                </div>
+                <div class="info">
+                    <p>There are several key features that a good website should possess. 
+                        These features aim to enhance the user experience, meet the client's goals, 
+                        and provide value to the target audience. 
+                        Here are some important features to consider:</p>
+                    <ul class="list">
+                        <li>User-Friendly Interface</li>
+                        <li>Responsive Design</li>
+                        <li>Clear and Engaging Content</li>
+                        <li>Fast Loading Speed</li>
+                        <li>Effective Call-to-Action (CTA)</li>
+                    </ul>
+                    <a href="images/cv.pdf" download class="btn btn-primary"><i class="uil uil-import"></i>Download CV</a>
+                </div>
+            </div>
+        </section>
+        <!-- ====================  END OF About ======================= -->
+
+        <section class="skills" id="skills">
+            <h1>Skills</h1>
+            <div class="container">
+                <div class="skill">
+                    <div class="head">
+                        <div class="left">
+                            <span class="material-symbols-sharp">design_services</span>
+                            <h4>UI/UX Design</h4>
+                        </div>
+                        <span class="material-symbols-sharp">expand_more</span>
+                    </div>
+                    <div class="items">
+                        <div class="item">
+                            <h5>Figma</h5> 
+                            <div class="progress-area">
+                                <div class="progress-bar">
+                                    <div class="progress"></div>
+                                </div>
+                                <h5>92%</h5>
+                            </div>
+                        </div>
+                    
+                        <!-- End of item -->
+                        <div class="item">
+                            <h5>Adobe XD</h5> 
+                            <div class="progress-area">
+                                <div class="progress-bar">
+                                    <div class="progress"></div>
+                                </div>
+                                <h5>88%</h5>
+                            </div>
+                        </div>
+                    
+                        <!-- End of item -->
+                        <div class="item">
+                            <h5>Adobe After Effect</h5> 
+                            <div class="progress-area">
+                                <div class="progress-bar">
+                                    <div class="progress"></div>
+                                </div>
+                                <h5>75%</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ========  End of UI/UX Design  ======== -->
+                
+                <div class="skill">
+                    <div class="head">
+                        <div class="left">
+                            <span class="material-symbols-sharp">code</span>
+                            <h4>FrontEnd Development</h4>
+                        </div>
+                        <span class="material-symbols-sharp">expand_more</span>
+                    </div>
+                    
+                    <div class="items">
+                        <div class="item">
+                            <h5>HTML</h5> 
+                            <div class="progress-area">
+                                <div class="progress-bar">
+                                    <div class="progress"></div>
+                                </div>
+                                <h5>92%</h5>
+                            </div>
+                        </div>
+                        <!-- End of item -->
+                        <div class="item">
+                            <h5>CSS</h5> 
+                            <div class="progress-area">
+                                <div class="progress-bar">
+                                    <div class="progress"></div>
+                                </div>
+                                <h5>88%</h5>
+                            </div>
+                        </div>
+                        <!-- End of item -->
+                        <div class="item">
+                            <h5>SAASS</h5> 
+                            <div class="progress-area">
+                                <div class="progress-bar">
+                                    <div class="progress"></div>
+                                </div>
+                                <h5>92%</h5>
+                            </div>
+                        </div>
+                        <!-- End of item -->
+                        <div class="item">
+                            <h5>BOOT STARP</h5> 
+                            <div class="progress-area">
+                                <div class="progress-bar">
+                                    <div class="progress"></div>
+                                </div>
+                                <h5>88%</h5>
+                            </div>
+                        </div>
+                        <!-- End of item -->
+                        <div class="item">
+                            <h5>JavaAcript</h5> 
+                            <div class="progress-area">
+                                <div class="progress-bar">
+                                    <div class="progress"></div>
+                                </div>
+                                <h5>75%</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ======  End of FrontEnd Development  ====== -->
+                </div>
+                    
+                
+                </div>
+            </div>
+        </section>
+        <!-- ===============================       End Of Skills      ====================================== -->
+        <section class="services" id="services">
+            <h1>Services</h1>
+            <div class="container">
+                <div class="service">
+                    <span class="material-symbols-sharp">design_services</span>
+                    <h3>UI/UX Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Dolor modi repudiandae laborum consequatur perspiciatis. 
+                        Culpa vel corrupti non! Placeat quibusdam facere earum 
+                        ipsum error pariatur mollitia magnam iure porro tenetur!</p>
+                </div>
+                <div class="service">
+                    <span class="material-symbols-sharp">language</span>
+                    <h3>Website & Web Apps Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Dolor modi repudiandae laborum consequatur perspiciatis. 
+                        Culpa vel corrupti non! Placeat quibusdam facere earum 
+                        ipsum error pariatur mollitia magnam iure porro tenetur!</p>
+                </div>
+                <div class="service">
+                    <span class="material-symbols-sharp">devices</span>
+                    <h3>Mobile Develoment</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Dolor modi repudiandae laborum consequatur perspiciatis. 
+                        Culpa vel corrupti non! Placeat quibusdam facere earum 
+                        ipsum error pariatur mollitia magnam iure porro tenetur!</p>
+                </div>
+            </div>
+        </section>
+    <!-- ===============================       End Of Services      ====================================== -->
+
+    <section class="recent-work" id="portfolio">
+        <div class="container">
+            <h4>My Recent Work</h4>
+            <h1>Here Are Some of My most Recent Solo Projects</h1>
+            <div class="projects">
+                <div class="project">
+                    <div class="thubmnail">
+                      <img src="/images/Big_phone_with_cart.jpg" alt="">
+                    </div>
+                     <h2>Complete Responsive E-commerece Website With Stripe Checkout</h2>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Laborum, commodi at, asperiores ut repellendus mollitia reprehenderit, 
+                    ipsum veniam aliquid nihil porro quam veritatis. 
+                    Hic cumque perspiciatis voluptas quae, repudiandae aliquam?</p>
+                     <div class="action">
+                        <a href="https://github.com" target="blank">Github</a>
+                        <a href="https://egatortutorial.com" target="blank">Live Demo</a>
+                    </div>
+            </div>
+            <!-- End of Projects -->
+            <!-- <div class="projects"> -->
+                <div class="project">
+                    <div class="thubmnail">
+                      <img src="/images/mining.jpg" alt="">
+                    </div>
+                     <h2>Crypto Mining App</h2>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Laborum, commodi at, asperiores ut repellendus mollitia reprehenderit, 
+                    ipsum veniam aliquid nihil porro quam veritatis. 
+                    Hic cumque perspiciatis voluptas quae, repudiandae aliquam?</p>
+                     <div class="action">
+                        <a href="https://github.com" target="blank">Github</a>
+                        <a href="https://egatortutorial.com" target="blank">Live Demo</a>
+                    </div>
+            </div>
+            <!-- End of Projects -->
+            <!-- <div class="projects"> -->
+                <div class="project">
+                    <div class="thubmnail">
+                      <img src="/images/coin.jpg" alt="">
+                    </div>
+                     <h2>Altcoin Exchange & Investment Website</h2>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Laborum, commodi at, asperiores ut repellendus mollitia reprehenderit, 
+                    ipsum veniam aliquid nihil porro quam veritatis. 
+                    Hic cumque perspiciatis voluptas quae, repudiandae aliquam?</p>
+                     <div class="action">
+                        <a href="https://github.com" target="blank">Github</a>
+                        <a href="https://egatortutorial.com" target="blank">Live Demo</a>
+                    </div>
+                </div>
+            <!-- End of Projects -->
+            <!-- <div class="projects"> -->
+                <div class="project">
+                    <div class="thubmnail">
+                      <img src="/images/hosting.jpg" alt="">
+                    </div>
+                     <h2>Web Hosting Service Website</h2>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Laborum, commodi at, asperiores ut repellendus mollitia reprehenderit, 
+                    ipsum veniam aliquid nihil porro quam veritatis. 
+                    Hic cumque perspiciatis voluptas quae, repudiandae aliquam?</p>
+                     <div class="action">
+                        <a href="https://github.com" target="blank">Github</a>
+                        <a href="https://egatortutorial.com" target="blank">Live Demo</a>
+                    </div>
+                </div>
+            <!-- End of Projects -->
+            </div>
+        </div>
+    </section>
+ <!-- ===============================       End Of Portfolio      ====================================== -->
+
+ <section class="testimonials">
+     <h1>Testimonials</h1>
+     <div class="container swiper">
+         <div class="carousel swiper-wrapper">
+             <div class="testimonial swiper-slide">
+                 <div class="head">
+                     <div class="profile-area">
+                         <div class="avatar">
+                             <img src="/images/civil.jpg" alt="">
+                         </div>
+                         <div class="info">
+                             <h4>Tarek Hegazi</h4>
+                             <small>Civil Engineer</small>
+                         </div>
+                     </div>
+                     <div class="stars">
+                        <span class="material-symbols-sharp">star_rate</span>
+                        <span class="material-symbols-sharp">star_rate</span>
+                        <span class="material-symbols-sharp">star_rate</span>
+                        <span class="material-symbols-sharp">star_rate</span>
+                        <span class="material-symbols-sharp">star_rate</span>
+                     </div>
+                 </div>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                     Aut deserunt nihil id sequi corrupti dolorum, excepturi praesentium,
+                      atque provident quaerat cupiditate quo cumque eius incidunt 
+                      aperiam sint expedita commodi illo.</p>
+             </div>
+             <!-- End of testimonial -->
+             <div class="testimonial swiper-slide">
+                <div class="head">
+                    <div class="profile-area">
+                        <div class="avatar">
+                            <img src="/images/petrol.png" alt="">
+                        </div>
+                        <div class="info">
+                            <h4>Ola Ali</h4>
+                            <small>Petroleum Engineer</small>
+                        </div>
+                    </div>
+                    <div class="stars">
+                       <span class="material-symbols-sharp">star_rate</span>
+                       <span class="material-symbols-sharp">star_rate</span>
+                       <span class="material-symbols-sharp">star_rate</span>
+                       <span class="material-symbols-sharp">star_rate</span>
+                       <span class="material-symbols-sharp">star_rate</span>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Aut deserunt nihil id sequi corrupti dolorum, excepturi praesentium,
+                     atque provident quaerat cupiditate quo cumque eius incidunt 
+                     aperiam sint expedita commodi illo.</p>
+            </div>
+            <!-- End of testimonial -->
+            <div class="testimonial swiper-slide">
+                <div class="head">
+                    <div class="profile-area">
+                        <div class="avatar">
+                            <img src="/images/mechanical.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h4>Adel Ahmed</h4>
+                            <small>Mechanical Engineer</small>
+                        </div>
+                    </div>
+                    <div class="stars">
+                       <span class="material-symbols-sharp">star_rate</span>
+                       <span class="material-symbols-sharp">star_rate</span>
+                       <span class="material-symbols-sharp">star_rate</span>
+                       <span class="material-symbols-sharp">star_rate</span>
+                       <span class="material-symbols-sharp">star_rate</span>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Aut deserunt nihil id sequi corrupti dolorum, excepturi praesentium,
+                     atque provident quaerat cupiditate quo cumque eius incidunt 
+                     aperiam sint expedita commodi illo.</p>
+            </div>
+            <!-- End of testimonial -->
+            <div class="testimonial swiper-slide">
+                <div class="head">
+                    <div class="profile-area">
+                        <div class="avatar">
+                            <img src="/images/developer.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h4>Hassan Hossam</h4>
+                            <small>Software Engineer</small>
+                        </div>
+                    </div>
+                    <div class="stars">
+                       <span class="material-symbols-sharp">star_rate</span>
+                       <span class="material-symbols-sharp">star_rate</span>
+                       <span class="material-symbols-sharp">star_rate</span>
+                       <span class="material-symbols-sharp">star_rate</span>
+                       <span class="material-symbols-sharp">star_rate</span>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Aut deserunt nihil id sequi corrupti dolorum, excepturi praesentium,
+                     atque provident quaerat cupiditate quo cumque eius incidunt 
+                     aperiam sint expedita commodi illo.</p>
+            </div>
+            <!-- End of testimonial -->
+         </div>
+         <div class="swiper-scrollbar">
+            <div class="swiper-scrollbar-drag"></div>
+         </div>
+     </div> 
+ </section>
+ <!-- ===============================       End Of Testimonials      ====================================== -->
+
+<section class="contact" id="contact">
+    <div class="overlay">
+        <div class="container">
+            <h1>Lets Talk</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ipsa ipsum officia itaque perferendis recusandae quod iure nostrum ipsam repudiandae accusantium, eveniet est molestias voluptates rem vel harum, ullam aliquid.</p>
+            <form action="https://formspree.io/f/xvonlplr" method="post">
+                <input type="text" name="Name" placeholder="Name" required>
+                <input type="email" name="Email" placeholder="Email" required>
+                <input type="text" name="Subject" placeholder="Subject" required>
+                <textarea name="Message" placeholder="Message" required></textarea>
+                <input type="submit" value="Submit" class="btn btn-primary">
+            </form>
+        </div>
+    </div>
+</section>
+ <!-- ===============================       End Of Contact      ====================================== -->
+ <footer>
+     <div class="container">
+         <a href="#"><h3>Omega</h3></a>
+         <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">lets Talk</a></li>
+         </ul>
+        <div class="socials">
+            <a href="https://www.facebook.com/profile.php?id=100008332725614&mibextid=ZbWKwL" target="_blank"><i class="uil uil-facebook-f"></i></a>
+            <a href="https://drible.com" target="_blank"><i class="uil uil-dribbble"></i></i></a>
+            <a href="https://github.com/tarek-abdo" target="_blank"><i class="uil uil-github"></i></i></a>
+        </div>
+    </div>
+    <div class="copyright">
+    </div>
+ </footer>
+
+<!-- Swiper Js -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+ <script src="main.js"></script>
+</body>
+</html>
